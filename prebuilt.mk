@@ -14,7 +14,6 @@
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    CalculatorGooglePrebuilt \
     GoogleContacts \
     LatinIMEGooglePrebuilt \
     WallpapersBReel \

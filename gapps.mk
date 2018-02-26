@@ -17,22 +17,20 @@ $(call inherit-product, vendor/gapps/common-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
-    CalendarGooglePrebuilt \
     FaceLock \
-    GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     GoogleVrCore \
     Hangouts \
-    Photos \
     PrebuiltDeskClockGoogle \
-    talkback
+    talkback \
+    Chrome
 
 # messenger skip on tablets
-ifeq ($(filter dragon,$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGES += \
-    PrebuiltBugle
-endif
+#ifeq ($(filter dragon,$(TARGET_PRODUCT)),)
+#PRODUCT_PACKAGES += \
+#    PrebuiltBugle
+#endif
 
 # /framework
 PRODUCT_PACKAGES += \
