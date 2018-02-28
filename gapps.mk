@@ -17,6 +17,7 @@ $(call inherit-product, vendor/gapps/common-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
+    CalendarGooglePrebuilt \
     FaceLock \
     GoogleContactsSyncAdapter \
     GoogleTTS \
