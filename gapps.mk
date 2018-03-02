@@ -65,3 +65,11 @@ PRODUCT_PACKAGES += \
 # /symlinks
 PRODUCT_PACKAGES += \
     libfacenet.so
+
+#telephony permissions
+PRODUCT_PACKAGES += \
+    com.google.android.dialer.support
+
+PRODUCT_COPY_FILES += \
+    vendor/gapps/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
+    vendor/gapps/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
