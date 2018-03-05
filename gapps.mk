@@ -25,6 +25,12 @@ PRODUCT_PACKAGES += \
     Hangouts \
     PrebuiltDeskClockGoogle \
     talkback \
+    LatinIMEGooglePrebuilt \
+    WallpapersBReel \
+    NexusWallpapersStubPrebuilt \
+    Turbo \
+    WallpaperPickerGooglePrebuilt \
+    WallpapersUsTwo \
     Chrome
 
 # messenger skip on tablets
@@ -62,6 +68,17 @@ PRODUCT_PACKAGES += \
     SetupWizard \
     Velvet
 
+# Libraries
+PRODUCT_COPY_FILES += \
+    vendor/gapps/lib64/libgdx.so:system/lib64/libgdx.so \
+    vendor/gapps/lib64/libgeswallpapers-jni.so:system/lib64/libgeswallpapers-jni.so
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    libgdx.so \
+    libgeswallpapers-jni.so \
+    libjpeg.so
+
 # /symlinks
 PRODUCT_PACKAGES += \
     libfacenet.so
@@ -73,3 +90,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/gapps/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
     vendor/gapps/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
+# build.prop entrys
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.theme_id=5 \
+    ro.wallpapers_loc_request_suw=true
