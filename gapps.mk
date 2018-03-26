@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
     WallpapersUsTwo \
     Chrome
+#    Drive \
+#    GMail \
+#    YouTube \
+#    GPlus
 
 # messenger skip on tablets
 #ifeq ($(filter dragon,$(TARGET_PRODUCT)),)
