@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     GoogleOneTimeInitializer \
     GooglePartnerSetup \
     GoogleServicesFramework \
+    GoogleExtShared \
+    PrebuiltExchange3Google \
+    GoogleCalendarSyncAdapter \
+    GoogleExtServices \
     Phonesky \
     PrebuiltGmsCore \
     DynamiteLoader.apk \
