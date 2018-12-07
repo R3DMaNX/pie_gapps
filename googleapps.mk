@@ -26,7 +26,9 @@ PRODUCT_PACKAGES += \
     WallpapersUsTwo \
     NexusWallpapersStubPrebuilt2017 \
     talkback \
-    PrebuiltBugle 
+    PrebuiltBugle \
+    Chrome \
+    Music2
 
 # /framework
 PRODUCT_PACKAGES += \
@@ -50,7 +52,7 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PrebuiltGmsCore \
     SetupWizard \
-    Velvet
+    Velvet \
 
 # /symlinks
 PRODUCT_PACKAGES += \
