@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #gapps blobs
-$(call inherit-product, vendor/googleapps/kronic-gapps-blobs.mk)
+$(call inherit-product, vendor/googleapps/gapps-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
@@ -28,7 +28,10 @@ PRODUCT_PACKAGES += \
     talkback \
     PrebuiltBugle \
     Chrome \
-    Music2
+    Music2 \
+    PrebuiltDeskClockGoogle \
+    CalculatorGooglePrebuilt \
+    CalendarGooglePrebuilt
 
 # /framework
 PRODUCT_PACKAGES += \
