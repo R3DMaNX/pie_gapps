@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     CarrierMetrics \
     ConnectivityMonitor \
-    Drive \
     FaceLock \
     GoogleCamera \
     GoogleContacts \
@@ -29,10 +28,8 @@ PRODUCT_PACKAGES += \
     GoogleVrCore \
     MarkupGoogle \
     NexusWallpapersStubPrebuilt2018 \
-    Photos \
     PrebuiltBugle \
     PrebuiltDeskClockGoogle \
-    PrebuiltGmail \
     talkback \
     Music2 \
     Chrome \
