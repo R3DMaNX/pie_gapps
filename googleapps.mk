@@ -1,4 +1,5 @@
 # Copyright (C) 2018 Benzo Rom
+# Copyright (C) 2018 SixROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,19 +22,18 @@ PRODUCT_PACKAGES += \
     ConnectivityMonitor \
     FaceLock \
     GoogleCamera \
-    GoogleContacts \
     GoogleContactsSyncAdapter \
     GoogleExtShared \
     GoogleTTS \
     GoogleVrCore \
     MarkupGoogle \
     NexusWallpapersStubPrebuilt2018 \
-    PrebuiltBugle \
     PrebuiltDeskClockGoogle \
     talkback \
     Music2 \
     Chrome \
     WallpapersBReel2018
+    #PrebuiltBugle
 
 # priv-app
 PRODUCT_PACKAGES += \
@@ -42,7 +42,6 @@ PRODUCT_PACKAGES += \
     ConfigUpdater \
     ConnMetrics \
     GoogleBackupTransport \
-    GoogleDialer \
     GoogleExtServices \
     GoogleFeedback \
     GoogleOneTimeInitializer \
@@ -52,12 +51,14 @@ PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     Phonesky \
     PrebuiltGmsCorePi \
-    SettingsIntelligenceGooglePrebuilt \
     SetupWizard \
     StorageManagerGoogle \
     TagGoogle \
     TurboPrebuilt \
     Velvet
+    #SettingsIntelligenceGooglePrebuilt
+    #GoogleContacts
+    #GoogleDialer
 
 # framework
 PRODUCT_PACKAGES += \
