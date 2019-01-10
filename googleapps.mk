@@ -32,8 +32,8 @@ PRODUCT_PACKAGES += \
     talkback \
     Music2 \
     Chrome \
-    WallpapersBReel2018
-    #PrebuiltBugle
+    WallpapersBReel2018 \
+    PrebuiltBugle
 
 # priv-app
 PRODUCT_PACKAGES += \
@@ -42,6 +42,8 @@ PRODUCT_PACKAGES += \
     ConfigUpdater \
     ConnMetrics \
     GoogleBackupTransport \
+    GoogleContacts \
+    GoogleDialer \
     GoogleExtServices \
     GoogleFeedback \
     GoogleOneTimeInitializer \
@@ -65,8 +67,6 @@ PRODUCT_PACKAGES += \
     Velvet \
     OTAConfigPrebuilt
     #SettingsIntelligenceGooglePrebuilt
-    #GoogleContacts
-    #GoogleDialer
 
 # framework
 PRODUCT_PACKAGES += \
