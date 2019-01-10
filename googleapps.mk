@@ -55,7 +55,8 @@ PRODUCT_PACKAGES += \
     StorageManagerGoogle \
     TagGoogle \
     TurboPrebuilt \
-    Velvet
+    Velvet \
+    OTAConfigPrebuilt
     #SettingsIntelligenceGooglePrebuilt
     #GoogleContacts
     #GoogleDialer
