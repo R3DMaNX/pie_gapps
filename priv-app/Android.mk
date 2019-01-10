@@ -179,6 +179,83 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := DynamiteModulesA
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/DynamiteModulesA.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := AdsDynamite
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/AdsDynamite.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := DynamiteModulesC
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/DynamiteModulesC.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CronetDynamite
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/CronetDynamite.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleCertificates
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/GoogleCertificates.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := DynamiteLoader
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/DynamiteLoader.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := MapsDynamite
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := PrebuiltGmsCorePi/app_chimera/m/MapsDynamite.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := m
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCorePi/app_chimera/m/
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
 #include $(CLEAR_VARS)
 #LOCAL_MODULE := SettingsIntelligenceGooglePrebuilt
 #LOCAL_MODULE_TAGS := optional

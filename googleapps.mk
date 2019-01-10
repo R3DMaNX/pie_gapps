@@ -51,6 +51,13 @@ PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     Phonesky \
     PrebuiltGmsCorePi \
+    DynamiteModulesA \
+    AdsDynamite \
+    DynamiteModulesC \
+    CronetDynamite \
+    DynamiteLoader \
+    GoogleCertificates \
+    MapsDynamite \
     SetupWizard \
     StorageManagerGoogle \
     TagGoogle \
