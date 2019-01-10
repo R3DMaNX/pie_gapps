@@ -151,9 +151,9 @@ PRODUCT_COPY_FILES += \
     vendor/googleapps/priv-app/Velvet/lib/arm64/libhere_allpurpose.so:system/priv-app/Velvet/lib/arm64/libhere_allpurpose.so \
     vendor/googleapps/lib/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfilterpack_facedetect.so \
     vendor/googleapps/lib/libfrsdk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfrsdk.so \
-    vendor/googleapps/lib64/libfacenet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfacenet.so \
     vendor/googleapps/lib64/libfrsdk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfrsdk.so \
     vendor/googleapps/lib64/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfilterpack_facedetect.so \
+    vendor/googleapps/lib64/libfacenet.so:system/lib64/libfacenet.so \
     vendor/googleapps/usr/srec/en-US/am_phonemes.syms:system/usr/srec/en-US/am_phonemes.syms \
     vendor/googleapps/usr/srec/en-US/app_bias.fst:system/usr/srec/en-US/app_bias.fst \
     vendor/googleapps/usr/srec/en-US/APP_NAME.fst:system/usr/srec/en-US/APP_NAME.fst \
